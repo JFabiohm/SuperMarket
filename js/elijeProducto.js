@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 image: card.querySelector('.card-img-top').src,
                 description: card.querySelector('.card-text').textContent
             };
-            console("hola")
+            console("jf")
             let savedProducts = JSON.parse(localStorage.getItem('products')) || [];
 
             savedProducts.push(product);
