@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-snap-type: x mandatory;
+}
+
+header{
+    background-color: #111;
+    border-bottom: 1px solid #785A28;
+}
+
+.imgLogo{
+
+    width: 120px;
+    height: 100px;
+   
+}
+.btn btn-primary{
+    display: flex;
+    justify-content: baseline;
+    align-content: baseline;
+   
+}
+
+.imgLetras{
+    margin-left: 300px;   
+    height: 90px;
+   
+}
+
+.body{
+    background-color: #091428;
+}
+
+.moverCard{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+    margin-right: 25px;
+    width: 1400px;
+    height: 600px;
+    
+  
+}
+
+.card{
+    scroll-snap-align: star;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+}
+.card-img-top{
+    width: 320px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+

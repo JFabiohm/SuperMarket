@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: #111;
+    border-bottom: 1px solid #785A28;
+}
+
+.imgLogo{
+
+    width: 120px;
+    height: 100px;
+   
+}
+
+
+.imgLetras{
+    margin-left: 300px;   
+    height: 90px;
+   
+}
+
+.btn btn-primary{
+    display: flex;
+   
+}
+
+.card {
+    height: 100%; 
+}
+
+.card-img-top {
+    object-fit: cover; 
+    height: 180px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.card-title {
+    font-size: 1.25rem; 
+}
+
+.card-text {
+    flex-grow: 1; 
+}
+
+
+.body{
+   background-color: #091428;;    
+}
